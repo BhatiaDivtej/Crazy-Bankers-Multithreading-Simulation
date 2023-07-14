@@ -14,7 +14,7 @@ The pthread library has the following calls to create threads and for the main t
 - [man pthread_create](https://man7.org/linux/man-pages/man3/pthread_create.3.html)
 - [man pthread_join](https://man7.org/linux/man-pages/man3/pthread_join.3.html)
 
-Let's start small with only 10 accounts, 20 bankers, and modest values held in each account, $100, and some maximum number of transactions to model (N_ROUNDS). 
+Start small with only 10 accounts, 20 bankers, and modest values held in each account, $100, and some maximum number of transactions to model (N_ROUNDS). 
 
 Each account's balance will be represented by a struct :
 ```c
